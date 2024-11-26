@@ -1,0 +1,40 @@
+
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    border-bottom:  1px solid black;
+    
+}
+.container{
+    max-width: 1200px;
+    margin:auto;
+}
+header div{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+header img{
+    width: 150px;
+    height: 150px;
+    
+    
+}
+ header nav  ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+    color: rgb(182, 39, 50);
+    text-decoration: none;
+    
+}
